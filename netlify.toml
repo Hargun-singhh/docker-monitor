@@ -1,6 +1,5 @@
 [build]
   functions = "api"
-  publish = "src"
 
 [[redirects]]
   from = "/containers"
