@@ -1,5 +1,5 @@
 [build]
-  functions = "api"
+  functions = "api"  # Point to your API directory
 
 [[redirects]]
   from = "/containers"
