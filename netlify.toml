@@ -1,0 +1,13 @@
+[build]
+  functions = "api"
+  publish = "src"
+
+[[redirects]]
+  from = "/containers"
+  to = "/.netlify/functions/containers"
+  status = 200
+
+[[redirects]]
+  from = "/create-container"
+  to = "/.netlify/functions/create-container"
+  status = 200
